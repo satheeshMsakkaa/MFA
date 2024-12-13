@@ -1,0 +1,70 @@
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+}
+.sidebar {
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  
+  .sidebar a {
+    padding: 10px 8px 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 52px;
+  }
+
+  .content {
+    position: relative;
+    top: 73px;
+    left: 0px;
+  }  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    background: #111;
+    width: 100%;
+    color: #d69b01;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    background: #111;
+    width: 100%;
+    color: #d69b01;
+  }
+
+  a.active {
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+  }
+  nav ul li {
+    float: left;
+  }
+  
